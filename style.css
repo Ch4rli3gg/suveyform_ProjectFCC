@@ -1,0 +1,33 @@
+.container{
+  width:100%;
+  margin: 50px auto 50px auto;
+  background: silver;
+}
+
+@media (max-width:480px) {
+  .container{
+    width: 480px;
+  }
+}
+
+@media (min-width:720px){
+  .container{
+    width:720px;
+  }
+}
+
+.header{
+  padding: 20px 10px;
+  padding-bottom:0px;
+  margin: 20px;
+  background: silver;
+}
+label {
+  display:flex;
+  align-items: center;
+}
+
+form {
+  background-color: silver;
+  padding: 20px;
+}
